@@ -32,3 +32,29 @@ To clone the repository:
 git clone https://github.com/shahdhairya6789/Application_Developer_University_of_Chicago.git
 cd training-management-app
 
+### Build and Run the Application
+
+1. Run the following command to build the project and install dependencies:
+
+   ```bash
+   mvn clean install
+   ```
+
+2. After running the above command, the application will process the training data, and three output JSON files will be generated in the `target/` directory.
+
+## Output Files
+
+The output files will include:
+
+- **completed_trainings.json**: A list of each completed training and the count of participants.
+- **fiscal_year_training.json**: A list of participants who completed specified trainings in the fiscal year 2024.
+- **expiring_trainings.json**: A list of participants with trainings that have expired or will expire soon.
+
+## Usage
+
+To run the application, execute the following command:
+
+```bash
+java -jar target/training-data-processing.jar
+```
+
