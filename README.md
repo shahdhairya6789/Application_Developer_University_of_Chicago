@@ -31,6 +31,7 @@ To clone the repository:
 ```bash
 git clone https://github.com/shahdhairya6789/Application_Developer_University_of_Chicago.git
 cd training-management-app
+```
 
 ### Build and Run the Application
 
@@ -46,15 +47,15 @@ cd training-management-app
 
 The output files will include:
 
-- **completed_trainings.json**: A list of each completed training and the count of participants.
-- **fiscal_year_training.json**: A list of participants who completed specified trainings in the fiscal year 2024.
-- **expiring_trainings.json**: A list of participants with trainings that have expired or will expire soon.
+- **task1_output.txt**: A list of each completed training and the count of participants.
+- **task2_output.txt**: A list of participants who completed specified trainings in the fiscal year 2024.
+- **task3_output.txt**: A list of participants with trainings that have expired or will expire soon.
 
 ## Usage
 
 To run the application, execute the following command:
 
 ```bash
-java -jar target/training-data-processing.jar
+java -jar target/Application_Developer_University_of_Chicago-1.0.jar
 ```
 
