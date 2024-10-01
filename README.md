@@ -23,6 +23,7 @@ Ensure that you have the following installed on your system:
 - Java 8 or higher
 - Git (optional, if you're cloning the repository)
 - Maven (for dependency management and build)
+- Java Development Tools like IntelliJ, Eclipse or any other Java Development Tool
 
 ### Cloning the Repository
 
@@ -41,7 +42,9 @@ cd training-management-app
    mvn clean install
    ```
 
-2. After running the above command, the application will process the training data, and three output JSON files will be generated in the `target/` directory.
+2. Run the TrainingApplication.java file from IntelliJ, Eclipse or any other Java Development Tool
+
+3. After running the above command, the application will process the trainings.txt data, and three output JSON files will be generated in the `src/` directory.
 
 ## Output Files
 
